@@ -1,6 +1,5 @@
 package ex_07062024;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Palindrome {
