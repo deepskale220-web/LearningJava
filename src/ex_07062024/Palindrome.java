@@ -8,11 +8,9 @@ public class Palindrome {
         System.out.println("Enter the string");
         String str = sc.nextLine();
         String reversed="";
-        for (int i=str.length()-1; i>=0 ;i--)
-        {
+        for (int i=str.length()-1; i>=0 ;i--) {
             reversed = reversed + str.charAt(i);
         }
-
         if( str.equals(reversed))
         {
             System.out.println("String is palindrome");
